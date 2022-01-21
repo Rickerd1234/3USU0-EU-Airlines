@@ -1,0 +1,20 @@
+This network contains the airline connections between European airports for several airlines. Each 
+node is an airport and there is a link between two airports if one of the airlines operates between
+them. Each node has labels that correspond to the name of the airport, its ICAO code and the code 
+of the country it is in. 
+
+The following airlines are considered:
+Air France
+Alitatlia
+British Airways
+EasyJet
+KLM
+Lufthansa
+Ryanair
+Scandinavian Airlines
+
+The network dataset was obtained from https://comunelab.fbk.eu/data.php. 
+The city and country info of the nodes was added using the lsit of ICAO codes were obtained from
+https://github.com/datasets/airport-codes/tree/master/data.
+
+To display the network you can use the Display Airline Network Jupyter notebook.
